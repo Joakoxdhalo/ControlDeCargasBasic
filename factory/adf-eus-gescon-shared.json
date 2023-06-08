@@ -1,0 +1,9 @@
+{
+	"name": "adf-eus-gescon-shared",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "682c1bad-b22d-4a2e-be96-1ef4f6f4b619",
+		"tenantId": "371ab23d-884c-40bd-b4d6-36bc3470ef62"
+	}
+}

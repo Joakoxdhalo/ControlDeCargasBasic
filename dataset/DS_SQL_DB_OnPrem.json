@@ -1,0 +1,35 @@
+{
+	"name": "DS_SQL_DB_OnPrem",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DB_OnPrem",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "col1",
+				"type": "varchar"
+			},
+			{
+				"name": "col2",
+				"type": "varchar"
+			},
+			{
+				"name": "col3",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Fact_TestTableFinanzas"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

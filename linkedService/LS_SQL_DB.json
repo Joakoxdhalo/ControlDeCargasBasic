@@ -1,0 +1,12 @@
+{
+	"name": "LS_SQL_DB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=cloudsqlserver.database.windows.net;initial catalog=cloudsqldb;user id=loginadmincloudsql",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEVDNjVCRUYxLTlFQUMtNDY3OS04QzQ2LUU2MzcwM0NGQzI2NV8zYmNiZmZhMS1iZWI2LTQ5NTEtYjZmNS0yZmM0Y2EzY2MzMzUiDQp9"
+		}
+	}
+}

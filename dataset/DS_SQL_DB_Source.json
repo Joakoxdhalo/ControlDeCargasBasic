@@ -1,0 +1,17 @@
+{
+	"name": "DS_SQL_DB_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "del",
+			"table": "ete"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

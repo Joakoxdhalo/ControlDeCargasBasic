@@ -1,0 +1,7 @@
+{
+	"name": "IROnprem",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Para conectar con la SQL OnPrem"
+	}
+}

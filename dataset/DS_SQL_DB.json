@@ -1,0 +1,17 @@
+{
+	"name": "DS_SQL_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ControlCargas"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
